@@ -8,7 +8,6 @@ import { lazy, Suspense, useEffect } from 'react';
 import AppBar from './component/AppBar';
 import Container from './component/Container';
 import { SetUserToken } from './redux/user/actions';
-import routes from './routes';
 
 const Login = lazy(() =>
   import('./component/Login' /* webpackChunkName: "Login" */),
