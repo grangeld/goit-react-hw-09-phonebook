@@ -33,7 +33,7 @@ const ContactForm = () => {
       <label className={s.label}>
         Number
         <input
-          type="text"
+          type="tel"
           name="number"
           value={number}
           onChange={e => setNumber(e.target.value)}
